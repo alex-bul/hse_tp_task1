@@ -23,7 +23,13 @@
 3. **Пример:**
 
     ```bash
-    bash copy.sh /path/to/input_directory /path/to/output_directory
+    ./copy.sh /path/to/input_directory /path/to/output_directory
+    ```
+
+    or
+
+   ```bash
+    sh copy.sh /path/to/input_directory /path/to/output_directory
     ```
 
 ## Автор
