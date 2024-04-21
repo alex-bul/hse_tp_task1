@@ -43,7 +43,7 @@ for file in $files; do
 done
 
 # Получение списка всех файлов, вложенных во входную директорию, и копирование их в выходную директорию
-nested_files=$(find "$input_dir"  -mindepth 1 -type f)
+nested_files=$(find "$input_dir"  -mindepth 2 -type f)
 
 # Идем по списку файлов и каждый из них копируем
 for file in $nested_files; do
